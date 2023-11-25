@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExercicioBootstrap</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+
+<style>
+    .card{
+        margin: 5em 0;
+    }
+</style>
+
+<body>
+    <div class="containerdd">
+        <div id="carousel-1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="lib/img/bmw.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 h-100" src="lib/img/ferrari.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="lib/img/porsche.jpg">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-1" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-1" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" ></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-md-5 mx-auto">
+                <article class="card">
+                    <div class="card-header">
+                        BMW
+                    </div>
+                    <img src="lib/img/mobi.png">
+                    <div class="card-body">
+                        <div class="card-title">BMW 2018</div>
+                        <p class="card-text">R$ 13.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-5 mx-auto">
+                <article class="card">
+                    <div class="card-header">
+                        BMW
+                    </div>
+                    <img src="lib/img/mobi.png">
+                    <div class="card-body">
+                        <div class="card-title">BMW 2018</div>
+                        <p class="card-text">R$ 13.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-5 mx-auto">
+                <article class="card">
+                    <div class="card-header">
+                        BMW
+                    </div>
+                    <img src="lib/img/mobi.png">
+                    <div class="card-body">
+                        <div class="card-title">BMW 2018</div>
+                        <p class="card-text">R$ 13.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-xl-4 col-md-5 mx-auto">
+                <article class="card">
+                    <div class="card-header">
+                        BMW
+                    </div>
+                    <img src="lib/img/mobi.png">
+                    <div class="card-body">
+                        <div class="card-title">BMW 2018</div>
+                        <p class="card-text">R$ 13.000</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
